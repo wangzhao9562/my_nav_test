@@ -4,10 +4,10 @@ The test package implements the simulation of usv navigation stack through turtl
 
 ## Prepare  
 sudo apt-get install ros-kinetic-turtlebot*  
-git clone https://github.com/wangzhao9562/usv_navigation.git
-cd ~/catkin_ws
-catkin_make
-source ~/devel/setup.bash
+git clone https://github.com/wangzhao9562/usv_navigation.git  
+cd ~/catkin_ws  
+catkin_make  
+source ~/devel/setup.bash  
 
 ## Run    
 roslaunch my_nav_test turtlebot_world.launch  
