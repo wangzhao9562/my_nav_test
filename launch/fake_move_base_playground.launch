@@ -15,6 +15,7 @@
     <rosparam file="$(find my_nav_test)/config/fake/local_costmap_params.yaml" command="load" />
     <rosparam file="$(find my_nav_test)/config/fake/global_costmap_params.yaml" command="load" />
     <rosparam file="$(find my_nav_test)/config/fake/base_local_planner_params.yaml" command="load" />
+    <rosparam file="$(find my_nav_test)/config/fake/move_base_params.yaml" command="load" />
     <rosparam file="$(find my_nav_test)/config/nav_obstacles_params.yaml" command="load" />
 
     <rosparam file="$(arg custom_param_file)" command="load" />
