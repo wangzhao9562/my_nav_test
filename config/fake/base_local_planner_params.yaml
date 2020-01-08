@@ -42,7 +42,7 @@ TrajectoryPlannerROS:
 
    ang_for_left: 45.0
    ang_for_right: 45.0
-   obs_detect_dist: 1.5
-   follow_vel: 0.5
+   obs_detect_dist: 1.0
+   follow_vel: 1.0
    vis_ang_for_left: 10.0
    vis_ang_for_right: 10.0
