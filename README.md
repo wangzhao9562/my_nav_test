@@ -1,6 +1,7 @@
 # my_nav_test
 
-The test package implements the simulation of usv navigation stack through turtlebot simulators.
+The test package implements the simulation of usv navigation stack through turtlebot simulators.  
+test_ver branch is responding to usv_navigation:master
 
 ## Prepare  
 sudo apt-get install ros-kinetic-turtlebot*  
