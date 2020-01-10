@@ -14,6 +14,7 @@
     <rosparam file="$(find my_nav_test)/config/fake/costmap_common_params.yaml" command="load" ns="local_costmap" />
     <rosparam file="$(find my_nav_test)/config/fake/local_costmap_params.yaml" command="load" />
     <rosparam file="$(find my_nav_test)/config/fake/global_costmap_params.yaml" command="load" />
+    <rosparam file="$(find my_nav_test)/config/fake/base_global_planner_params.yaml" command="load"/>
     <rosparam file="$(find my_nav_test)/config/fake/base_local_planner_params.yaml" command="load" />
     <rosparam file="$(find my_nav_test)/config/fake/move_base_params.yaml" command="load" />
     <rosparam file="$(find my_nav_test)/config/nav_obstacles_params.yaml" command="load" />

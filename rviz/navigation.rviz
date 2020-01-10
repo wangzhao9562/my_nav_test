@@ -513,7 +513,7 @@ Visualization Manager:
       Value: true
     - Class: rviz/Marker
       Enabled: true
-      Marker Topic: /move_base/TrajectoryPlannerROS/mid_way
+      Marker Topic: /move_base/DynamicPlannerROS/mid_way
       Name: mid_way
       Namespaces:
         {}
@@ -521,7 +521,7 @@ Visualization Manager:
       Value: true
     - Class: rviz/Marker
       Enabled: true
-      Marker Topic: /move_base/TrajectoryPlannerROS/obs_detect_left_way
+      Marker Topic: /move_base/DynamicPlannerROS/obs_detect_left_way
       Name: obs_detect_left
       Namespaces:
         {}
@@ -529,7 +529,7 @@ Visualization Manager:
       Value: true
     - Class: rviz/Marker
       Enabled: true
-      Marker Topic: /move_base/TrajectoryPlannerROS/obs_detect_right_way
+      Marker Topic: /move_base/DynamicPlannerROS/obs_detect_right_way
       Name: obs_detect_right
       Namespaces:
         {}
@@ -537,7 +537,7 @@ Visualization Manager:
       Value: true
     - Class: rviz/Marker
       Enabled: true
-      Marker Topic: /move_base/TrajectoryPlannerROS/vis_left_way
+      Marker Topic: /move_base/DynamicPlannerROS/vis_left_way
       Name: vis_left
       Namespaces:
         {}
@@ -545,7 +545,7 @@ Visualization Manager:
       Value: true
     - Class: rviz/Marker
       Enabled: true
-      Marker Topic: /move_base/TrajectoryPlannerROS/vis_right_way
+      Marker Topic: /move_base/DynamicPlannerROS/vis_right_way
       Name: vis_right
       Namespaces:
         {}

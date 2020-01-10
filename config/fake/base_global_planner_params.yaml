@@ -1,0 +1,7 @@
+StaticPlanner:
+   old_navfn_behavior: false
+   use_orientation_filter: true
+   use_bspline_filter: true
+   interpolation_interval: 0.15
+   wrapper_resolution: 0.5
+   allow_unknown: true
