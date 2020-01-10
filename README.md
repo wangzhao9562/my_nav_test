@@ -1,10 +1,11 @@
 # my_nav_test
 
 The test package implements the simulation of usv navigation stack through turtlebot simulators.
+master is responding to usv_navigation formal branch
 
 ## Prepare  
 sudo apt-get install ros-kinetic-turtlebot*  
-git clone https://github.com/wangzhao9562/usv_navigation.git  
+git clone -b formal https://github.com/wangzhao9562/usv_navigation.git  
 cd ~/catkin_ws  
 catkin_make  
 source devel/setup.bash  
