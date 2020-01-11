@@ -8,8 +8,9 @@ Panels:
         - /TF1/Tree1
         - /Global Map1/Planner1
         - /Local Map1
-        - /Local Map1/Planner1
+        - /Local Map1/Costmap1
         - /Local Map1/Trajectory Cloud1
+        - /Map2
       Splitter Ratio: 0.5
     Tree Height: 532
   - Class: rviz/Selection
@@ -551,6 +552,16 @@ Visualization Manager:
         {}
       Queue Size: 100
       Value: true
+    - Alpha: 0.699999988
+      Class: rviz/Map
+      Color Scheme: costmap
+      Draw Behind: false
+      Enabled: true
+      Name: Map
+      Topic: /move_base/StaticPlanner/wrapper_grid
+      Unreliable: false
+      Use Timestamp: false
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -574,7 +585,7 @@ Visualization Manager:
   Value: true
   Views:
     Current:
-      Angle: -6.72002983
+      Angle: -4.75503063
       Class: rviz/TopDownOrtho
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.0599999987
